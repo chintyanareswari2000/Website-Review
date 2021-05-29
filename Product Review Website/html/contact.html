@@ -1,0 +1,118 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="id-edge">
+	<link rel="stylesheet" href="../css/ContactStyle.css">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap" rel="stylesheet">
+	<title>Contact</title>
+	<style>
+		
+	</style>
+</head>
+
+<body>
+	<div class="overlay" id="menu">
+		<h3>Review Page :</h3>
+		<a href="javascript:void(0)" class="closebtn" onClick="closeNav()">&times;</a>
+		<div class="overlay-content1">
+			<a href="console.html"><img src="../pict/console.png" class="icon" alt="Console Icon">Console</a>
+			<a href="film.html"><img src="../pict/film.png" class="icon" alt="Film Icon">Film</a>
+			<a href="food.html"><img src="../pict/food.png" class="icon" alt="Food Icon">Food</a>
+			<a href="drink.html"><img src="../pict/drink.png" class="icon" alt="Drink Icon">Drink</a>
+		</div>
+		<div class="overlay-content2">
+			<a href="gadget.html"><img src="../pict/gadget.png" class="icon" alt="Gadget Icon">Gadget</a>
+			<a href="laptop.html"><img src="../pict/laptop.png" class="icon" alt="Laptop Icon">Laptop</a>
+			<a href="clothes.html"><img src="../pict/clothes.png" class="icon" alt="Clothes Icon">Clothes</a>
+			<a href="shoes.html"><img src="../pict/shoes.png" class="icon" alt="Shoes Icon">Shoes</a>
+		</div>
+	</div>
+	<nav>
+		<a href="home.html"><img src="../pict/logo.png" class="logo" alt="Web Logo"></a>
+		<ul class="nav-links">
+			<li>
+				<a href="home.html" target="blank">Home</a>
+			</li>
+			<li>
+				<a><span style="cursor:pointer" onclick="openNav()">&#9776; Review</span></a>
+			</li>
+			<li>
+				<a href="contact.html" target="blank">Contact</a>
+			</li>
+		</ul>
+		<div class="lines">
+			<div class="line1"></div>
+			<div class="line2"></div>
+			<div class="line3"></div>
+		</div>
+	</nav>
+
+	<div class="kotak_login">
+		<p class="tulisan_login"><b>Contact</b></p>
+
+		<form>
+			</br>
+			<p class="a">Write me for work inquiry or just to say hello. I'm currently accepting new client projects.</p>
+			</br>
+			</br>
+			<label><b>Name</b></label>
+			<input type="text" name="username" class="form_login">
+
+			<label><b>Email</b></label>
+			<input type="text" name="email" class="form_login">
+			
+			<label><b>Message</b></label>
+			<input type="text" name="message" class="form_login2">
+			
+			</br>
+
+			<center><input type="submit" class="tombol_login" onClick="tombol()" value="SUBMIT"></center>
+			
+			<script>
+				function tombol() {
+					alert("Submit Success!");
+				}
+			</script>
+			
+			<br/>
+			<br/>
+		</form>
+		
+	</div>
+	
+		<div class="footer">
+            <ul>
+                <li2>
+                    <span>ADDRESS</span>
+                    25-27, Pasar Kaliki Street<br>
+					Bandung City<br>
+					40181 West Java
+                </li2>
+                <li2>
+                    <span>ELSEWHERE ON WEB</span>
+                    <div class="sm-icons">
+						<a href="https://twitter.com"><img src="../pict/twitter.png" class="icons"></a>
+						<a href="https://facebook.com"><img src="../pict/facebook.png" class="icons"></a>
+						<a href="https://instagram.com"><img src="../pict/instagram.png" class="icons"></a>
+						<a href="https://whatsapp.com"><img src="../pict/whatsapp.png" class="icons"></a>
+					</div>
+                </li2>
+            </ul>
+        </footer>
+
+
+	<script>
+	function openNav() {
+	  document.getElementById("menu").style.height = "100%";
+	}
+	function closeNav() {
+	  document.getElementById("menu").style.height = "0%";
+	}
+	</script>
+</body>
+
+
+</html>
